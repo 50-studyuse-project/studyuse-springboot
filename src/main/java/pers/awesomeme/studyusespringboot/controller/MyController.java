@@ -12,7 +12,7 @@ public class MyController
     @Autowired
     private MyService myService;
 
-    @GetMapping
+    @GetMapping("/my/gct")
     public ApiResp<Long> getCurTimestamp()
     {
         return myService.getCurTimestamp();
