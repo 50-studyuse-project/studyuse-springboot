@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.1</version>
+        <version>2.3.12.RELEASE</version>
         <relativePath/>
     </parent>
 
@@ -17,7 +17,7 @@
     <description>studyuse-springboot</description>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>8</java.version>
     </properties>
 
     <dependencies>
@@ -39,9 +39,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba.boot</groupId>
-            <artifactId>nacos-config-spring-boot-starter</artifactId>
-            <version>0.3.0-RC</version>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>2.2.8.RELEASE</version>
         </dependency>
     </dependencies>
 
