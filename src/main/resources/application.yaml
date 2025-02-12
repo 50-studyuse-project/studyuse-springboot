@@ -1,2 +1,14 @@
 server:
     port: 8001
+
+nacos:
+    config:
+        server-addr: 47.104.245.221:8848 # 主机与端口
+        username: nacos # 账号
+        password: 123 # 密码
+#        namespace: 08b59bfe-a72f-441b-82d7-0fcb0b70d4af # 哪个命名空间
+#        group: group01 # 哪个组
+        data-id: test  # 哪个配置文件
+        auto-refresh: true # 开启自动刷新
+        bootstrap:
+            enable: true # nacos.config.bootstrap.enable 必须要设置为true，否则拉取不下来.
